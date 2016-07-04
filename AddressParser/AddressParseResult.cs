@@ -9,7 +9,9 @@
 namespace USAddress
 {
     using System.Collections.Generic;
+#if !NETSTANDARD1_3
     using System.Diagnostics.CodeAnalysis;
+#endif
     using System.Diagnostics.Contracts;
     using System.Globalization;
     using System.Text.RegularExpressions;
@@ -221,9 +223,11 @@ namespace USAddress
         /// <summary>
         /// Contracts that are true throughout the life of the class instance.
         /// </summary>
+#if !NETSTANDARD1_3
         [SuppressMessage("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Justification = "Used by the CodeContract analyzer")]
         [SuppressMessage("Microsoft.Performance", "CA1822:MarkMembersAsStatic", Justification = "CodeContract analyzer requires this to be an instance member.")]
         [ExcludeFromCodeCoverage]
+#endif
         [ContractInvariantMethod]
         private void ObjectInvariant()
         {

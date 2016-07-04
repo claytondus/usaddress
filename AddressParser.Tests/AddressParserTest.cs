@@ -9,6 +9,8 @@
 
     using ApprovalUtilities.Utilities;
 
+    using USAddress;
+
     using Xunit;
 
     public class AddressParserTest
