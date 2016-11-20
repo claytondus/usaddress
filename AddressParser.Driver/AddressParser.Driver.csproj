@@ -67,7 +67,7 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AddressParser\AddressParser.xproj">
+    <ProjectReference Include="..\AddressParser\AddressParser.csproj">
       <Project>{c349ae63-1fe0-4bbb-9681-54a49e249e3b}</Project>
       <Name>AddressParser</Name>
     </ProjectReference>

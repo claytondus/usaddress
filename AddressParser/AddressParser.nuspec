@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>AddressParser</id>
-    <version>0.0.19</version>
-    <title>AddressParser</title>
-    <authors>Jim Counts</authors>
-    <owners>Jim Counts</owners>
+    <id>Claytondus.AddressParser</id>
+    <version>0.1.0</version>
+    <title>Claytondus.AddressParser</title>
+    <authors>Jim Counts, Clayton Davis</authors>
+    <owners>Jim Counts, Clayton Davis</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <licenseUrl>https://raw.github.com/jamesrcounts/usaddress/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/jamesrcounts/usaddress</projectUrl>
-    <iconUrl>https://raw.github.com/jamesrcounts/usaddress/master/Icons/icon_36386.png</iconUrl>
-    <description>This is a partial port of the Perl Geo::StreetAddress::US CPAN module to C#.</description>
-    <copyright>Copyright © Jim Counts 2011</copyright>
+    <licenseUrl>https://raw.github.com/claytondus/usaddress/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/claytondus/usaddress</projectUrl>
+    <iconUrl>https://raw.github.com/claytondus/usaddress/master/Icons/icon_36386.png</iconUrl>
+    <description>This is a partial port of the Perl Geo::StreetAddress::US CPAN module to C#. Updated to support .NET Standard 1.3.</description>
+    <copyright>Copyright © Jim Counts, Clayton Davis 2016</copyright>
     <references>
       <reference file ="AddressParser.dll" />
     </references>
